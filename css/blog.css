@@ -1,0 +1,131 @@
+@media screen and (min-width: 320px){
+    .pv-topbar {
+        background-color: #1c1c1c;
+
+    }
+    
+    a {
+        color:  #768079 ;
+    }
+    .pv-menu {
+        width: 100%;
+        display: flex;
+        margin-left: 0px;
+        justify-content: space-around;
+
+    }
+    .dropdown-menu {
+        background-color: #1c1c1c;
+        border-radius: 0;
+        margin-top: 10px;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+        color: #ff4656;
+        background-color: #303030;
+    }
+
+    .dropdown-menu .dropdown-item:hover::before {
+        transform: scale(0);
+    }
+    .pv-logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .pv-logo {
+        width: 75px;
+        height: 120px;
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+        background-color: #ff4655;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 0 0 37px 0;
+    }
+
+    .pv-logo img {
+        width: 60px;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pv-menu {
+        margin-left: 20px;
+        width: 360px;
+    }
+    .pv-menu a {
+        font-family: 'FF Mark Bold', Serif;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-transform: uppercase;
+        position: relative;
+
+    }
+
+}
+    body {
+        overflow-x: hidden;
+    }
+   
+    .content .blog-title{
+        color: #ff4655;
+        font-size: 120px;
+        
+    }
+
+body {
+    background-color: #e7e7e7;
+}
+
+.content {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+}
+
+.pv-cards a {
+    text-decoration: none;
+}
+
+.pv-cards a p {
+    color: #768079;
+    text-decoration: none;
+}
+
+
+.pv-card {
+    margin: 50px 0;
+    transition: all .3s ease-in-out;
+    box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+}
+
+.pv-card:hover  {
+    transform: scale(1.02);
+    transition: all .3s ease-in-out;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 20;
+    width: 93%;
+    height: 100%;
+    transform: scale(0, 1);
+    transform-origin: center left;
+    transition: all .05s ease-in-out;
+}
+.pv-card:hover .img-overlay{
+    backdrop-filter: grayscale(0.5) opacity(0.8);
+    transform: scale(1, 1);
+    background-color: #00000058;
+    transition: all .1s ease-in-out;
+    
+}
