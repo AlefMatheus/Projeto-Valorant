@@ -1,38 +1,38 @@
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anek+Deva.pvari&family=Open+Sans&family=Playfair+Display&family=Roboto&display=swap');
-@import url(/css/animate.min.css);
+@import url('/css/animate.min.css');
 
 @font-face {
     font-family: 'Valorant';
-    src: url('/fonts/Valorant Font.ttf') format('truetype');
+    src: url('../fonts/Valorant Font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Tungsten';
-    src: url('/fonts/Tungsten Font.ttf') format('truetype');
+    src: url('../fonts/Tungsten Font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FF Mark Bold';
-    src: url('/fonts/FontFont_FF.Mark.Pro.Black.otf') format('opentype');
+    src: url('../fonts/FontFont_FF.Mark.Pro.Black.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FF Mark Regular';
-    src: url('/fonts/Mark-SmallCaps-Regular.ttf') format('truetype');
+    src: url('../fonts/Mark-SmallCaps-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'DIN Next Regular';
-    src: url(/fonts/DINNextW1G-Regular.otf) format('opentype');
+    src: url('../fonts/DINNextW1G-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -257,7 +257,7 @@ body {
         align-items: center;
         width: 100%;
         height: 600px;
-        background-image: url(/img/bg/background\ harbor.jpg);
+        background-image: url('../img/breach.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -442,7 +442,7 @@ body {
         height: 45px;
         display: block;
         background-color: #ff4655;
-        background-image: url(/img/icons/icon-contact-close.svg);
+        background-image: url('../img/icons/icon-contact-close.svg');
         background-repeat: no-repeat;
         position: fixed;
         bottom: 35px;
@@ -703,7 +703,7 @@ body {
         align-items: center;
         width: 100%;
         height: 750px;
-        background-image: url(/img/bg/background\ harbor.jpg);
+        background-image: url('../img/bg/background-harbor.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

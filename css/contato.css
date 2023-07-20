@@ -1,6 +1,6 @@
 @media screen and (min-width: 320px) {
     body {
-        background-image: url(/img/bg/bg-fade.jpg);
+        background-image: url('../img/bg/bg-fade.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
